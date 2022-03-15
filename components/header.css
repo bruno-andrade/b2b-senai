@@ -1,0 +1,110 @@
+/* line 21, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/header.scss */
+.header {
+  height: 50px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #F1F1F1;
+  padding: .5rem 0;
+}
+
+/* line 29, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/header.scss */
+.header__nav-wrapper {
+  width: calc(100% - (6% * 2));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+/* line 39, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/header.scss */
+.header__nav {
+  width: 100%;
+}
+
+/* line 43, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/header.scss */
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* line 49, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/header.scss */
+.header__menu .header__menu-link {
+  cursor: pointer;
+  margin-left: 2.125rem;
+  color: var(--main-color);
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 56, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/header.scss */
+.header__menu .header__menu-link:hover {
+  color: var(--dark-blue);
+}
+
+/* line 62, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/header.scss */
+.logo {
+  height: 50px;
+}
+
+/* line 66, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/header.scss */
+.banner {
+  height: auto;
+  width: 100%;
+}
+
+/* line 69, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/header.scss */
+.banner .banner-img {
+  background-color: #000d37;
+  width: 100%;
+  height: 330px;
+}
+
+/* line 76, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/header.scss */
+#home-title {
+  margin-top: 4.9375rem;
+}
+
+/* line 80, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/header.scss */
+.main-title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 86, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/header.scss */
+.main-title .main-title__h1 {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: var(--black);
+}
+
+/* line 91, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/header.scss */
+.main-title:after {
+  width: 6em;
+  height: 6px;
+  background: linear-gradient(180deg, #FCC530 0%, #FCAA30 100%);
+  border-radius: 31px;
+  background-color: #FCAA30;
+  position: relative;
+  content: '';
+  top: -5px;
+  left: 1px;
+}
+
+/*# sourceMappingURL=header.css.map */

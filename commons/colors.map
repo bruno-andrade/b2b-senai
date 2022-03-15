@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "colors.css",
+	"sources": [
+		"../assets/scss/commons/colors.scss"
+	],
+	"sourcesContent": [
+		":root {\n  --main-color: #001833;\n  --main-color-variant: #00244d;\n  --secondary-color: #004899;\n  --text-color: #1a1a1a;\n  --sub-title: #474747;\n  --button-color-see-details: #01cc15;\n  --danger-error: #BC4B4B;\n  --yellow-tonalite: #FCC530;\n  --light-blue-dots: #5fe6d0;\n  --dark-blue: #014898;\n  --black: #262626;\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,KAAK,CAAC;EACJ,YAAY,CAAA,QAAC;EACb,oBAAoB,CAAA,QAAC;EACrB,iBAAiB,CAAA,QAAC;EAClB,YAAY,CAAA,QAAC;EACb,WAAW,CAAA,QAAC;EACZ,0BAA0B,CAAA,QAAC;EAC3B,cAAc,CAAA,QAAC;EACf,iBAAiB,CAAA,QAAC;EAClB,iBAAiB,CAAA,QAAC;EAClB,WAAW,CAAA,QAAC;EACZ,OAAO,CAAA,QAAC;CACT"
+}

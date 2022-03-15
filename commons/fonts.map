@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "fonts.css",
+	"sources": [
+		"../assets/scss/commons/fonts.scss"
+	],
+	"sourcesContent": [
+		"@mixin sans {\r\n  font-family: sans-serif;\r\n}"
+	],
+	"names": [],
+	"mappings": ""
+}

@@ -1,0 +1,13 @@
+@import 'commons/colors.scss';
+@import 'commons/commons.scss';
+@import 'commons/normalize.scss';
+@import 'commons/reset.scss';
+@import 'commons/tipography.scss';
+@import 'commons/fonts.scss';
+@import 'components/header.scss';
+@import 'home/suspended-menu.scss';
+
+*{
+  font-family: sans-serif !important;
+  text-decoration: none;
+}
