@@ -40,8 +40,33 @@
   align-items: center;
   justify-content: space-between;
   .suspended__menu-link{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    cursor: pointer;
+    overflow: hidden;
+    width: 126px;
+    padding: 10px 0;
+    margin: 0;
   }
+}
+
+.suspended__icon{
+  &:after{
+    height: 100%;
+    width: 100%;
+    content: "";
+    display: block;
+    position: absolute;
+    border: solid 5px var(--main-color);
+    border-color: #0d2536 transparent transparent transparent;
+    border-radius: 88px;
+    top: 0;
+    left: 0;
+    transition: 0.5s cubic-bezier(0.79, -0.2, 0.29, 1.11) transform;
+  }
+  
 }
 
 .btn{

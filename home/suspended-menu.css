@@ -28,7 +28,35 @@
   justify-content: space-between;
 }
 
-/* line 47, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
+/* line 42, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
+.suspended__menu .suspended__menu-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  cursor: pointer;
+  overflow: hidden;
+  width: 126px;
+  padding: 10px 0;
+  margin: 0;
+}
+
+/* line 56, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
+.suspended__icon:after {
+  height: 100%;
+  width: 100%;
+  content: "";
+  display: block;
+  position: absolute;
+  border: solid 5px var(--main-color);
+  border-color: #0d2536 transparent transparent transparent;
+  border-radius: 88px;
+  top: 0;
+  left: 0;
+  transition: 0.5s cubic-bezier(0.79, -0.2, 0.29, 1.11) transform;
+}
+
+/* line 72, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
 .btn {
   border-radius: 1rem;
   padding: 1rem 0;
@@ -44,18 +72,18 @@
   margin: 0 auto;
 }
 
-/* line 56, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
+/* line 81, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
 .btn:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-/* line 62, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
+/* line 87, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
 .btn__yellow {
   background-color: var(--yellow-tonalite);
   color: var(--main-color);
 }
 
-/* line 65, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
+/* line 90, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
 .btn__yellow.btn__yellow--position {
   margin-top: 5.75rem;
 }
