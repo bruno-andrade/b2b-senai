@@ -5,8 +5,8 @@
 		"../assets/scss/home/consultorias.scss"
 	],
 	"sourcesContent": [
-		""
+		"#consultorias{\r\n  margin-top: 9rem;\r\n}\r\n"
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": ";AAAA,AAAA,aAAa,CAAA;EACX,UAAU,EAAE,IAAI;CACjB"
 }

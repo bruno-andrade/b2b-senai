@@ -5,8 +5,8 @@
 		"../assets/scss/commons/commons.scss"
 	],
 	"sourcesContent": [
-		".container{\r\n  padding: 0 1rem;\r\n}"
+		".container{\r\n  width: calc(100% - (6% * 2));\r\n}"
 	],
 	"names": [],
-	"mappings": ";AAAA,AAAA,UAAU,CAAA;EACR,OAAO,EAAE,MAAM;CAChB"
+	"mappings": ";AAAA,AAAA,UAAU,CAAA;EACR,KAAK,EAAE,qBAAqB;CAC7B"
 }
