@@ -1,6 +1,69 @@
-/* line 1, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/commons.scss */
+/* line 9, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/commons.scss */
 .container {
-  width: calc(100% - (6% * 2));
+  min-width: 800px;
+  max-width: 1440px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+/* line 16, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/commons.scss */
+.services__wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* line 21, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/commons.scss */
+.services__wrapper.double-card {
+  column-gap: 8.75rem;
+}
+
+/* line 24, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/commons.scss */
+.services__wrapper.pill-card {
+  column-gap: 1.5rem;
+}
+
+/* line 28, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/commons.scss */
+.services__title {
+  color: var(--main-color);
+}
+
+/* line 30, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/commons.scss */
+.services__title:after {
+  content: 'texto de apoio';
+  color: #474747;
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 325;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* line 35, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/commons.scss */
+.services__title.services__title--apoio {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+/* line 43, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/commons.scss */
+.logo {
+  height: 50px;
+}
+
+/* line 47, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/commons.scss */
+.banner {
+  height: auto;
+  width: 100%;
+}
+
+/* line 50, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/commons.scss */
+.banner .banner-img {
+  background-color: #000d37;
+  width: 100%;
+  height: 330px;
 }
 
 /*# sourceMappingURL=commons.css.map */

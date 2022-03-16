@@ -1,11 +1,10 @@
-/* line 33, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/tipography.scss */
-.titulo-1 {
+/* line 32, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/tipography.scss */
+.title-1 {
   font-family: 'Gotham';
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 43px;
-  text-align: center;
 }
 
 /*# sourceMappingURL=tipography.css.map */

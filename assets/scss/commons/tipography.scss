@@ -21,15 +21,14 @@
   font-size: 22px;
 }
 
-@mixin titulo-1 {
+@mixin title-1 {
   font-family: 'Gotham';
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 43px;
-  text-align: center;
 }
 
-.titulo-1{
-  @include titulo-1;
+.title-1{
+  @include title-1;
 }

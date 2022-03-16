@@ -5,8 +5,8 @@
 		"../assets/scss/commons/tipography.scss"
 	],
 	"sourcesContent": [
-		"@mixin botao2 {\r\n  font-family: 'Gotham';\r\n  font-style: normal;\r\n  font-weight: 700;\r\n  font-size: 18px;\r\n  line-height: 22px;\r\n}\r\n\r\n\r\n@mixin subtitulo1 {\r\n  font-family: 'Open Sans', sans-serif;\r\n  font-style: normal;\r\n  font-weight: 500;\r\n  font-size: 24px;\r\n}\r\n\r\n@mixin subtitulo2 {\r\n  font-family: 'Open Sans', sans-serif;\r\n  font-style: normal;\r\n  font-weight: 400;\r\n  font-size: 22px;\r\n}\r\n\r\n@mixin titulo-1 {\r\n  font-family: 'Gotham';\r\n  font-style: normal;\r\n  font-weight: 700;\r\n  font-size: 36px;\r\n  line-height: 43px;\r\n  text-align: center;\r\n}\r\n\r\n.titulo-1{\r\n  @include titulo-1;\r\n}"
+		"@mixin botao2 {\r\n  font-family: 'Gotham';\r\n  font-style: normal;\r\n  font-weight: 700;\r\n  font-size: 18px;\r\n  line-height: 22px;\r\n}\r\n\r\n\r\n@mixin subtitulo1 {\r\n  font-family: 'Open Sans', sans-serif;\r\n  font-style: normal;\r\n  font-weight: 500;\r\n  font-size: 24px;\r\n}\r\n\r\n@mixin subtitulo2 {\r\n  font-family: 'Open Sans', sans-serif;\r\n  font-style: normal;\r\n  font-weight: 400;\r\n  font-size: 22px;\r\n}\r\n\r\n@mixin title-1 {\r\n  font-family: 'Gotham';\r\n  font-style: normal;\r\n  font-weight: 700;\r\n  font-size: 36px;\r\n  line-height: 43px;\r\n}\r\n\r\n.title-1{\r\n  @include title-1;\r\n}"
 	],
 	"names": [],
-	"mappings": ";AAgCA,AAAA,SAAS,CAAA;EARP,WAAW,EAAE,QAAQ;EACrB,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,MAAM;CAKnB"
+	"mappings": ";AA+BA,AAAA,QAAQ,CAAA;EAPN,WAAW,EAAE,QAAQ;EACrB,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;CAKlB"
 }

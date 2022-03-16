@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "bottom-banner.css",
+	"sources": [
+		"../assets/scss/home/bottom-banner.scss"
+	],
+	"sourcesContent": [
+		"#bottom-banner{\r\n  margin-top: 9.0625rem;\r\n  margin-bottom: 6.5rem;\r\n  img{\r\n    background-color: var(--yellow-tonalite);\r\n  }\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,cAAc,CAAA;EACZ,UAAU,EAAE,SAAS;EACrB,aAAa,EAAE,MAAM;CAItB;;;AAND,AAGE,cAHY,CAGZ,GAAG,CAAA;EACD,gBAAgB,EAAE,sBAAsB;CACzC"
+}

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "banner-card.css",
+	"sources": [
+		"../assets/scss/components/banner-card.scss"
+	],
+	"sourcesContent": [
+		""
+	],
+	"names": [],
+	"mappings": ""
+}

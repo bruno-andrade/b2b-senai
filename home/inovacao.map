@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "inovacao.css",
+	"sources": [
+		"../assets/scss/home/inovacao.scss"
+	],
+	"sourcesContent": [
+		"#inovacao{\r\n  margin-top: 7.25rem;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,SAAS,CAAA;EACP,UAAU,EAAE,OAAO;CACpB"
+}

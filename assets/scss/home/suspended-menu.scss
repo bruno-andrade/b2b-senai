@@ -15,8 +15,7 @@
   line-height: 34px;
 }
 
-.suspended__wrapper{
-  width: calc(100% - (10% * 2));
+.suspended__wrapper{  
   margin: 3.5rem auto 0;
   padding: 5rem 0;
   border-radius: 1rem;
@@ -26,10 +25,11 @@
 
 .suspended__title{
   color: var(--main-color);
+  text-align: center;
 }
 
 .suspended-nav{
-  width: calc(100% - (15% * 2));
+  width: 100%;
   margin: 5.25rem auto 0;
 }
 
@@ -39,6 +39,8 @@
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
   .suspended__menu-link{
     display: flex;
     justify-content: center;
