@@ -1,0 +1,52 @@
+/* line 9, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/buttons.scss */
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* line 15, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/buttons.scss */
+.back-button {
+  margin: 1.1875rem 0 1rem;
+}
+
+/* line 19, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/buttons.scss */
+.filter-button {
+  margin-left: auto;
+  display: block;
+  width: 22px;
+}
+
+/* line 25, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/buttons.scss */
+.btn {
+  border-radius: 1rem;
+  padding: 1rem 0;
+  text-align: center;
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  width: 350px;
+  display: block;
+  transition: .2s ease-in-out;
+  margin: 0 auto;
+}
+
+/* line 34, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/buttons.scss */
+.btn:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* line 40, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/buttons.scss */
+.btn__yellow {
+  background-color: var(--yellow-tonalite);
+  color: var(--main-color);
+}
+
+/* line 43, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/buttons.scss */
+.btn__yellow.btn__yellow--position {
+  margin-top: 5.75rem;
+}
+
+/*# sourceMappingURL=buttons.css.map */

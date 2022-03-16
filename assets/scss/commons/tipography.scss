@@ -32,3 +32,27 @@
 .title-1{
   @include title-1;
 }
+
+@mixin title-2 {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 350;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.title-2{
+  @include title-2;
+}
+
+@mixin title-3 {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 350;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.title-3{
+  @include title-3;
+}

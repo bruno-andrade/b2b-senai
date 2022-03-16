@@ -4,14 +4,23 @@
 @import 'commons/reset.scss';
 @import 'commons/tipography.scss';
 @import 'commons/fonts.scss';
+
+
 @import 'components/header.scss';
 @import 'components/square-card.scss';
+@import 'components/banner-card.scss';
+@import 'components/buttons.scss';
+
+
 @import 'home/suspended-menu.scss';
 @import 'home/consultorias.scss';
 @import 'home/inovacao.scss';
 @import 'home/laboratoriais.scss';
 @import 'home/educacao.scss';
 @import 'home/bottom-banner.scss';
+
+
+@import 'list-by-section/list-articles.scss';
 
 *{
   font-family: sans-serif !important;
