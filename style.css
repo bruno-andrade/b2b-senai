@@ -724,7 +724,7 @@ table {
   text-transform: uppercase;
 }
 
-/* line 18, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
+/* line 26, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
 .suspended__wrapper {
   margin: 3.5rem auto 0;
   padding: 5rem 0;
@@ -733,19 +733,19 @@ table {
   box-shadow: 0px 2px 35px -7px rgba(0, 0, 0, 0.1);
 }
 
-/* line 26, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
+/* line 34, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
 .suspended__title {
   color: var(--main-color);
   text-align: center;
 }
 
-/* line 31, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
+/* line 39, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
 .suspended-nav {
   width: 100%;
   margin: 5.25rem auto 0;
 }
 
-/* line 36, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
+/* line 44, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
 .suspended__menu {
   display: flex;
   flex-direction: row;
@@ -756,7 +756,7 @@ table {
   margin: 0 auto;
 }
 
-/* line 44, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
+/* line 52, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
 .suspended__menu .suspended__menu-link {
   display: flex;
   justify-content: center;
@@ -769,14 +769,26 @@ table {
   margin: 0;
 }
 
-/* line 54, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
+/* line 62, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
 .suspended__menu .suspended__menu-link:hover .suspended__icon:after {
   transform: rotate(320deg) scale(1.01);
   border: solid 5px #fcc530;
   border-color: #fcc530 transparent transparent transparent;
 }
 
-/* line 62, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
+/* line 67, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
+.suspended__menu .suspended__menu-link span {
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--main-color);
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+/* line 76, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
 .suspended__icon {
   transition: 0.5s linear box-shadow;
   background-color: #fff;
@@ -797,7 +809,7 @@ table {
   margin-bottom: 18px;
 }
 
-/* line 80, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
+/* line 94, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
 .suspended__icon:after {
   height: 100%;
   width: 100%;
@@ -813,7 +825,7 @@ table {
   transform: rotate(45deg);
 }
 
-/* line 97, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
+/* line 111, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
 .btn {
   border-radius: 1rem;
   padding: 1rem 0;
@@ -829,18 +841,18 @@ table {
   margin: 0 auto;
 }
 
-/* line 106, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
+/* line 120, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
 .btn:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-/* line 112, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
+/* line 126, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
 .btn__yellow {
   background-color: var(--yellow-tonalite);
   color: var(--main-color);
 }
 
-/* line 115, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
+/* line 129, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/suspended-menu.scss */
 .btn__yellow.btn__yellow--position {
   margin-top: 5.75rem;
 }
@@ -885,6 +897,7 @@ table {
 * {
   font-family: sans-serif !important;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 /*# sourceMappingURL=style.css.map */
