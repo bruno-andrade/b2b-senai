@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "laboratoriais.css",
+	"sources": [
+		"../assets/scss/home/laboratoriais.scss"
+	],
+	"sourcesContent": [
+		"#laboratoriais{\r\n  padding-top: 9.1875rem;\r\n  padding-bottom: 6.1875rem;\r\n  background-color: #F6F6F6;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,cAAc,CAAA;EACZ,WAAW,EAAE,SAAS;EACtB,cAAc,EAAE,SAAS;EACzB,gBAAgB,EAAE,OAAO;CAC1B"
+}

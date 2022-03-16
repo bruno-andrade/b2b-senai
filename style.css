@@ -835,19 +835,28 @@ table {
   margin-top: 5.75rem;
 }
 
-/* line 3, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/consultorias.scss */
+/* line 1, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/consultorias.scss */
 #consultorias {
-  margin-top: 9rem;
+  padding-top: 9rem;
+  background: linear-gradient(190deg, transparent 57%, #F6F6F6 57%);
 }
 
 /* line 1, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/inovacao.scss */
 #inovacao {
-  margin-top: 7.25rem;
+  padding-top: 7.25rem;
+  background-color: #F6F6F6;
+}
+
+/* line 1, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/laboratoriais.scss */
+#laboratoriais {
+  padding-top: 9.1875rem;
+  padding-bottom: 6.1875rem;
+  background-color: #F6F6F6;
 }
 
 /* line 1, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/educacao.scss */
 #educacao {
-  margin-top: 12.75rem;
+  padding-top: 6.5625rem;
 }
 
 /* line 1, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/bottom-banner.scss */
@@ -861,7 +870,7 @@ table {
   background-color: var(--yellow-tonalite);
 }
 
-/* line 15, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/style.scss */
+/* line 16, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/style.scss */
 * {
   font-family: sans-serif !important;
   text-decoration: none;

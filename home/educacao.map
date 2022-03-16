@@ -5,8 +5,8 @@
 		"../assets/scss/home/educacao.scss"
 	],
 	"sourcesContent": [
-		"#educacao{\r\n  margin-top: 12.75rem;\r\n}"
+		"#educacao{\r\n  padding-top: 6.5625rem;\r\n}"
 	],
 	"names": [],
-	"mappings": ";AAAA,AAAA,SAAS,CAAA;EACP,UAAU,EAAE,QAAQ;CACrB"
+	"mappings": ";AAAA,AAAA,SAAS,CAAA;EACP,WAAW,EAAE,SAAS;CACvB"
 }

@@ -1,6 +1,7 @@
-/* line 3, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/consultorias.scss */
+/* line 1, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/home/consultorias.scss */
 #consultorias {
-  margin-top: 9rem;
+  padding-top: 9rem;
+  background: linear-gradient(190deg, transparent 57%, #F6F6F6 57%);
 }
 
 /*# sourceMappingURL=consultorias.css.map */

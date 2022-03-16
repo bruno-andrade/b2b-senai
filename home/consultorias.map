@@ -5,8 +5,8 @@
 		"../assets/scss/home/consultorias.scss"
 	],
 	"sourcesContent": [
-		"\r\n\r\n#consultorias{\r\n  margin-top: 9rem;\r\n}\r\n"
+		"#consultorias{\r\n  padding-top: 9rem;\r\n  background: linear-gradient(190deg, transparent 57%, #F6F6F6 57%);  \r\n}\r\n"
 	],
 	"names": [],
-	"mappings": ";AAEA,AAAA,aAAa,CAAA;EACX,UAAU,EAAE,IAAI;CACjB"
+	"mappings": ";AAAA,AAAA,aAAa,CAAA;EACX,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,qDAAqD;CAClE"
 }
