@@ -34,4 +34,18 @@
   line-height: 24px;
 }
 
+/* line 72, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/tipography.scss */
+.text-sub-2 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+/* line 76, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/tipography.scss */
+.beneficios__title {
+  color: var(--main-color);
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=tipography.css.map */

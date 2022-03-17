@@ -68,3 +68,12 @@
 .text-body-2{
   @include text-body-2;
 }
+
+.text-sub-2{
+  @include subtitulo2;
+}
+
+.beneficios__title{
+  color: var(--main-color);
+  font-weight: 600;
+}
