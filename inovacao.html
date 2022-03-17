@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+  <section class="banner">
+    <a href=""><img class="banner-img" src="https://source.unsplash.com/random" alt=""></a>    
+  </section>
+  <section id="list-title"> 
+    <div class="list__filter container">
+      <button class="button filter-button" href=""><i data-icons="filter"><svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path opacity="0.8" d="M21 1.04883H1L9 10.2436V16.6003L13 18.5442V10.2436L21 1.04883Z" stroke="#001834" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        </i>
+      </button>
+    </div>   
+    <div class="main-title main-title--left main-title--no-content container">
+      <ul class="breadcrumb breadcrumb--b2b">
+        <a href=""><li>Home</li></a>
+        <a href=""><li>Consultorias</li></a>
+        <a href=""><li>Consultoria em produtividade 5S</li></a>
+      </ul>
+      <button class="button back-button" onclick="history.back()"><i data-icons="back"><svg width="22" height="35" viewBox="0 0 22 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M21.318 30.4674L8.142 17.2614L21.318 4.05644L17.262 0.00043869L0 17.2614L17.262 34.5234L21.318 30.4674Z" fill="#0D2536"/>
+        </svg>
+        </i>
+      </button>                 
+    </div>
+  </section>
+  <style>
+    .main-title.main-title--no-content:after{
+      content: none;
+    }
+    #carrosel-card{
+      margin-top: 4.6875rem;
+    }
+    .carrosel-card__text{
+      margin-top: 2.1875rem;
+    }
+    .carrosel-card__content-wrapper{
+      max-width: 45%;
+      height: 385px;
+      width: 45%;
+    }
+    .carrosel-card__img-wrapper{
+      max-width: 55%;
+      height: 385px;
+      width: 55%;
+    }
+    .carrosel-card__link{
+      margin-top: 3.75rem;
+      display: block;
+      color: #014898;
+      text-transform: uppercase;
+    }
+    .carrosel-card__wrapper{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: flex-start;
+      height: 385px;
+      column-gap: 2.625rem;
+    }
+    .carrosel-card__img{
+      background-color: var(--dark-blue);
+      height: 385px;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    #opcoes{
+      margin-top: 11.6875rem;
+    }
+    .veja-mais__text{        
+      font-family: 'Gotham';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 19px;
+      text-transform: uppercase;
+      color: #001834;
+      margin-top: .75rem;
+    }
+
+    .veja-mais__img{
+      border-radius: 1rem;
+      width: 195px;
+      height: 195px;
+      background-color: var(--main-color);
+    }
+    .veja-mais__card{
+      width: 195px;
+    }
+    .veja-mais__cards-wrapper{
+      margin-top: 3.5rem;
+      width: 100%;
+      column-gap: 4rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      row-gap: 2.75rem;
+    }
+    .veja-mais__cards-wrapper--inovacao{
+      justify-content: space-evenly;
+    }
+    .veja-mais__text--inovacao{
+      text-align: center;
+    }
+    .veja-mais__card--inovacao{
+      flex: 1 0 29%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .veja-mais__p{
+      margin-top: 1rem;
+      text-align: center;
+    }
+  </style> 
+  <section id="carrosel-card" class="container">
+    <div class="carrosel-card__wrapper">
+      <div class="carrosel-card__content-wrapper">
+        <h2 class="title-1 text-main-color">Softwares e Hardware​</h2>
+        <p class="text-body-1 carrosel-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies phasellus malesuada sit mauris vitae. Lobortis cras duis libero, consequat, dictum consequat amet tristique. At cras urna viverra leo, accumsan semper scelerisque in purus. Nascetur donec non, eget sed neque. Amet neque, in aliquam vel magna. Nascetur donec non, eget sed neque. Amet neque, in aliquam vel magna.Nascetur donec non, eget sed neque. Amet neque, in aliquam vel magna.</p>
+        <a class="carrosel-card__link" href="">Saber mais</a>
+      </div>
+      <div class="carrosel-card__img-wrapper">
+        <img class="carrosel-card__img" src="" alt="">
+      </div>
+    </div>
+  </section>
+  <section id="opcoes" class="container">
+    <h2 class="title-1 text-main-color">O que você pode fazer?</h2>
+    <div class="veja-mais__cards-wrapper veja-mais__cards-wrapper--inovacao">
+      <div class="veja-mais__card veja-mais__card--inovacao">
+        <img class="veja-mais__img" src="" alt="">
+        <h3 class="veja-mais__text veja-mais__text--inovacao">Desenvolvimento Experimental (Científico - Tecnológico)</h3>
+        <p class="veja-mais__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>      
+      <div class="veja-mais__card veja-mais__card--inovacao">
+        <img class="veja-mais__img" src="" alt="">
+        <h3 class="veja-mais__text veja-mais__text--inovacao">Prova de Conceito</h3>
+        <p class="veja-mais__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>      
+      <div class="veja-mais__card veja-mais__card--inovacao">
+        <img class="veja-mais__img" src="" alt="">
+        <h3 class="veja-mais__text veja-mais__text--inovacao">Protótipo Industrial</h3>
+        <p class="veja-mais__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div> 
+      <div class="veja-mais__card veja-mais__card--inovacao">
+        <img class="veja-mais__img" src="" alt="">
+        <h3 class="veja-mais__text veja-mais__text--inovacao">Protótipo Industrial</h3>
+        <p class="veja-mais__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="veja-mais__card veja-mais__card--inovacao">
+        <img class="veja-mais__img" src="" alt="">
+        <h3 class="veja-mais__text veja-mais__text--inovacao">Protótipo Industrial</h3>
+        <p class="veja-mais__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>    
+    </div>
+  </section>
+
+</body> 
+</html>

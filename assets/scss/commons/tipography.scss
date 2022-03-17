@@ -65,8 +65,20 @@
   line-height: 24px;
 }
 
+@mixin text-body-1{
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+
 .text-body-2{
   @include text-body-2;
+}
+
+.text-body-1{
+  @include text-body-1;
 }
 
 .text-sub-2{
@@ -76,4 +88,17 @@
 .beneficios__title{
   color: var(--main-color);
   font-weight: 600;
+}
+
+.text-main-color{
+  color: var(--main-color);
+}
+
+.carrosel-card__link{
+  @include botao2;
+}
+
+.veja-mais__p{
+  @include subtitulo2;
+  color: var(--black);
 }

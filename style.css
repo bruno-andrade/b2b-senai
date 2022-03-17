@@ -548,7 +548,7 @@ table {
   line-height: 24px;
 }
 
-/* line 68, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/tipography.scss */
+/* line 76, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/tipography.scss */
 .text-body-2 {
   font-family: 'Gotham';
   font-style: normal;
@@ -557,7 +557,16 @@ table {
   line-height: 24px;
 }
 
-/* line 72, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/tipography.scss */
+/* line 80, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/tipography.scss */
+.text-body-1 {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* line 84, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/tipography.scss */
 .text-sub-2 {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
@@ -565,10 +574,33 @@ table {
   font-size: 22px;
 }
 
-/* line 76, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/tipography.scss */
+/* line 88, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/tipography.scss */
 .beneficios__title {
   color: var(--main-color);
   font-weight: 600;
+}
+
+/* line 93, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/tipography.scss */
+.text-main-color {
+  color: var(--main-color);
+}
+
+/* line 97, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/tipography.scss */
+.carrosel-card__link {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/* line 101, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/tipography.scss */
+.veja-mais__p {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: var(--black);
 }
 
 /* line 21, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/header.scss */
