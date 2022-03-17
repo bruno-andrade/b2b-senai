@@ -56,3 +56,15 @@
 .title-3{
   @include title-3;
 }
+
+@mixin text-body-2{
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 275;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.text-body-2{
+  @include text-body-2;
+}

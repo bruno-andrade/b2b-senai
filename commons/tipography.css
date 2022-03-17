@@ -25,4 +25,13 @@
   line-height: 24px;
 }
 
+/* line 68, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/tipography.scss */
+.text-body-2 {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 275;
+  font-size: 20px;
+  line-height: 24px;
+}
+
 /*# sourceMappingURL=tipography.css.map */

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "general.css",
+	"sources": [
+		"../assets/scss/laboratoriais/general.scss"
+	],
+	"sourcesContent": [
+		"#lab-resumo{\r\n  margin-top: 3.375rem;\r\n}\r\n\r\n#list-lab{\r\n  margin: 4.4375rem auto;\r\n}\r\n\r\n.lab__p{\r\n  color: var(--black);\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,WAAW,CAAA;EACT,UAAU,EAAE,QAAQ;CACrB;;;AAED,AAAA,SAAS,CAAA;EACP,MAAM,EAAE,cAAc;CACvB;;;AAED,AAAA,OAAO,CAAA;EACL,KAAK,EAAE,YAAY;CACpB"
+}

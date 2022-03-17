@@ -7,8 +7,7 @@
 
 
 @import 'components/header.scss';
-@import 'components/square-card.scss';
-@import 'components/banner-card.scss';
+@import 'components/cards.scss';
 @import 'components/buttons.scss';
 
 
@@ -21,6 +20,12 @@
 
 
 @import 'list-by-section/list-articles.scss';
+
+
+@import 'editais/general.scss';
+
+
+@import 'laboratoriais/general.scss';
 
 *{
   font-family: sans-serif !important;

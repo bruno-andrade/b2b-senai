@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "general.css",
+	"sources": [
+		"../assets/scss/editais/general.scss"
+	],
+	"sourcesContent": [
+		"#editais{\r\n  margin: 7rem auto;\r\n}\r\n.edital__card {\r\n  width: 100%;\r\n  height: fit-content;\r\n  padding: 1em 1.5em;\r\n  background: #FFFFFF;\r\n  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n  border-radius: .5rem;\r\n  margin-top: 1.875rem;\r\n}\r\n\r\n.edital__data {\r\n  font-family: Gotham;\r\n  font-weight: 400;\r\n  font-size: 14px;\r\n  color: #00244D;\r\n  margin: .25em 0;\r\n}\r\n.div-icon {\r\n  display: flex;\r\n  flex-direction: row;\r\n  flex-wrap: nowrap;\r\n  align-items: center;\r\n  margin-top: .5rem;\r\n}\r\n.edital__resultado {\r\n  font-family: Gotham;\r\n  font-style: normal;\r\n  font-weight: normal;\r\n  font-size: calc(14px - 15%);\r\n  margin-top: 1.6875rem;\r\n  text-decoration: underline;\r\n  color: var(--sub-title);\r\n}\r\n.edital__title {\r\n  color: #014898;\r\n}\r\n.div-icon h2 {\r\n  margin-left: .25em;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,QAAQ,CAAA;EACN,MAAM,EAAE,SAAS;CAClB;;;AACD,AAAA,aAAa,CAAC;EACZ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,WAAW;EACnB,OAAO,EAAE,SAAS;EAClB,UAAU,EAAE,OAAO;EACnB,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,mBAAmB;EAC3C,aAAa,EAAE,KAAK;EACpB,UAAU,EAAE,QAAQ;CACrB;;;AAED,AAAA,aAAa,CAAC;EACZ,WAAW,EAAE,MAAM;EACnB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;EACd,MAAM,EAAE,OAAO;CAChB;;;AACD,AAAA,SAAS,CAAC;EACR,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,KAAK;CAClB;;;AACD,AAAA,kBAAkB,CAAC;EACjB,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,gBAAgB;EAC3B,UAAU,EAAE,SAAS;EACrB,eAAe,EAAE,SAAS;EAC1B,KAAK,EAAE,gBAAgB;CACxB;;;AACD,AAAA,cAAc,CAAC;EACb,KAAK,EAAE,OAAO;CACf;;;AACD,AAAA,SAAS,CAAC,EAAE,CAAC;EACX,WAAW,EAAE,KAAK;CACnB"
+}

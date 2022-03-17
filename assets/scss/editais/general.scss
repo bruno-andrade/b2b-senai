@@ -1,0 +1,42 @@
+#editais{
+  margin: 7rem auto;
+}
+.edital__card {
+  width: 100%;
+  height: fit-content;
+  padding: 1em 1.5em;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: .5rem;
+  margin-top: 1.875rem;
+}
+
+.edital__data {
+  font-family: Gotham;
+  font-weight: 400;
+  font-size: 14px;
+  color: #00244D;
+  margin: .25em 0;
+}
+.div-icon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-top: .5rem;
+}
+.edital__resultado {
+  font-family: Gotham;
+  font-style: normal;
+  font-weight: normal;
+  font-size: calc(14px - 15%);
+  margin-top: 1.6875rem;
+  text-decoration: underline;
+  color: var(--sub-title);
+}
+.edital__title {
+  color: #014898;
+}
+.div-icon h2 {
+  margin-left: .25em;
+}

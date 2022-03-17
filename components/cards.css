@@ -1,0 +1,192 @@
+/* line 8, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/cards.scss */
+.square-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 300px;
+}
+
+/* line 14, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/cards.scss */
+.square-card.square-card--double {
+  width: calc(50% - 4.375rem);
+}
+
+/* line 17, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/cards.scss */
+.square-card.square-card--double-pill {
+  width: calc(50% - .75rem);
+}
+
+/* line 20, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/cards.scss */
+.square-card.square-card--banner {
+  width: 100%;
+}
+
+/* line 23, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/cards.scss */
+.square-card.square-card--pill {
+  height: 185px;
+  width: 100%;
+}
+
+/* line 29, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/cards.scss */
+.square-card__pill-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: calc(50% - .75rem);
+}
+
+/* line 36, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/cards.scss */
+.square__img-wrapper {
+  width: 100%;
+  height: 300px;
+  margin-top: 2.375rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* line 48, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/cards.scss */
+.square__img-wrapper.square__img-wrapper--pill {
+  height: 137px;
+}
+
+/* line 51, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/cards.scss */
+.square__img-wrapper .square__img {
+  background-color: var(--main-color);
+  width: 100%;
+  height: 300px;
+  border-radius: 1rem;
+  object-fit: cover;
+  filter: brightness(0.6);
+  transition: 0.45s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/* line 59, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/cards.scss */
+.square__img-wrapper .square__img:hover {
+  filter: brightness(1);
+  transform: scale(1.1);
+}
+
+/* line 63, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/cards.scss */
+.square__img-wrapper .square__img.square__img--pill {
+  height: 120px;
+}
+
+/* line 67, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/cards.scss */
+.square__img-wrapper .square__icon {
+  position: absolute;
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-color: var(--dark-blue);
+}
+
+/* line 76, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/cards.scss */
+.square__title {
+  color: var(--main-color);
+  text-align: center;
+  margin-top: 1.375rem;
+  line-height: 22px;
+  margin-top: 10px;
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* line 83, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/cards.scss */
+.square__title.square__title--upper {
+  text-transform: uppercase;
+}
+
+/* line 91, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/cards.scss */
+.article-card {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 1.5rem;
+}
+
+/* line 99, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/cards.scss */
+.article-card:first-of-type {
+  margin-top: 1rem;
+}
+
+/* line 102, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/cards.scss */
+.article-card.article-card--spacing2x {
+  margin-top: 3.125rem;
+}
+
+/* line 104, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/cards.scss */
+.article-card.article-card--spacing2x:first-of-type {
+  margin-top: 2.125rem;
+}
+
+/* line 110, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/cards.scss */
+.article__img {
+  height: 160px;
+  width: 223px;
+  background-color: var(--main-color);
+  border-radius: 1em 0 0 1em;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* line 119, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/cards.scss */
+.article-card__body {
+  padding: 1em 0 1rem 1rem;
+  width: calc(100% - 12em);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+/* line 126, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/cards.scss */
+.article-card__title {
+  color: var(--main-color);
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  font-weight: 600;
+}
+
+/* line 135, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/cards.scss */
+.article-card__text {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  color: #262626;
+  margin-top: 1rem;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+/* line 149, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/components/cards.scss */
+.article-card__arrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  max-width: 10rem;
+  min-width: 3rem;
+  width: 10rem;
+}
+
+/*# sourceMappingURL=cards.css.map */
