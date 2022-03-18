@@ -80,4 +80,19 @@
   color: var(--black);
 }
 
+/* line 106, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/tipography.scss */
+.text-dark-blue {
+  color: var(--dark-blue);
+}
+
+/* line 111, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/tipography.scss */
+.text-white {
+  color: white;
+}
+
+/* line 115, ../../OneDrive - Sistema FIEA/dev/b2b-senai/assets/scss/commons/tipography.scss */
+.text-center {
+  text-align: center;
+}
+
 /*# sourceMappingURL=tipography.css.map */

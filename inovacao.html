@@ -122,6 +122,138 @@
       margin-top: 1rem;
       text-align: center;
     }
+    #desenvolvimento{
+      margin-top: 12.25rem;
+    }
+    .desenv__p{
+      text-align: center;
+      max-width: 80%;
+      margin: 1.5rem auto 0;
+      color: var(--black);
+    }
+    .slide__container{
+      margin-top: 4.5rem;
+    }
+    .slide__wrapper{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      column-gap: 8rem;
+      margin-top: 2.625rem;
+    }
+    .nav__wrapper{
+      width: 25%;
+    }
+    .slide__img{
+      width: 75%;
+      height: 500px;
+      background-color: var(--black);
+      /* background: linear-gradient(90deg, rgba(0, 24, 52, 0.33) 0%, rgba(0, 24, 52, 0) 100%); */
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border-radius: 24px;
+    }
+    .slide__menu{
+      height: 500px;
+    }
+    .slide__menu-item span{
+      /* -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text; */
+      display:block;
+      margin-left: 1rem;
+      color: #001834;
+    }
+    .slide__menu-item{
+      height: 20%;
+      width: 100%;
+      color: transparent;
+      z-index: 1;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .slider{
+      background-color: #014898;
+      height: 6rem;
+      width: 100%;
+      display: block;
+      position: relative;
+      z-index: -1;
+    }
+    .slide__selected-title {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      column-gap: 1.25rem;
+      line-height: 0.8;
+      margin-top: 5rem;
+    }
+    .slide__selected-p{
+      color: var(--black);
+      margin-top: 1.875rem;
+    }
+    #conceito{
+      margin-top: 8.5rem;
+      width: 100%;
+      height: 1000px;
+      background: linear-gradient(180deg, #000C1A 0%, #001834 100%);
+    }
+    .line-wrapper{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 5.7rem;
+    }
+    .line{
+      width: 40%;
+      border-top: 1px;
+      border-color: white;
+      border-style: solid;
+      opacity: 0.5;
+    }
+    .conceito__title{
+      text-align: center;
+      color: #FFF;
+      padding: 0 5rem;
+      min-width: 350px;
+    }
+    .conceito__p{
+      max-width: 950px;
+      margin: 1.5rem auto 0;
+      line-height: 26px;
+    }
+    .prototipo__title{
+      margin-top: 8.75rem;
+    }
+    .prototipo__p{
+      margin-top: 1.5rem;
+      color: var(--black);
+      line-height: 26px;
+    }
+    .veja-mais__cards-wrapper--prototipo{  
+      justify-content: space-evenly;
+      margin-top: 5.25rem;
+      margin-bottom: 8.25rem;
+    }
+    .veja-mais__card--prototipo{
+      flex: 1 0 29%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 326px;
+    }
+    .v-line{
+      width: 2px;
+      background-color: #474747;
+      height: 100%;
+      opacity: 0.2;
+    }
   </style> 
   <section id="carrosel-card" class="container">
     <div class="carrosel-card__wrapper">
@@ -163,6 +295,72 @@
         <h3 class="veja-mais__text veja-mais__text--inovacao">Protótipo Industrial</h3>
         <p class="veja-mais__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>    
+    </div>
+  </section>
+  <section id="desenvolvimento" class="container">
+    <h2 class="title-1 text-main-color text-center">Desenvolvimento Experimental (Científico - Tecnológico)</h2>
+    <p class="desenv__p text-body-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies phasellus malesuada sit mauris vitae. Lobortis cras duis libero, consequat, dictum </p>
+    <div class="slide__container">
+      <h2 class="title-1 text-main-color slide__title">Lorem ipsum dolor</h2>
+      <div class="slide__wrapper">
+        <nav class="nav__wrapper">          
+          <ul class="slide__menu">
+            <li class="slide__menu-item">
+              <div class="v-line"></div>
+              <span class="title-3">Lorem ipsum dolor</span>
+            </li>
+            <li class="slide__menu-item">
+              <div class="v-line"></div>
+              <span class="title-3">Lorem ipsum dolor</span>
+            </li>
+            <li class="slide__menu-item">
+              <div class="v-line"></div>
+              <span class="title-3">Lorem ipsum dolor</span>
+            </li>
+            <li class="slide__menu-item">
+              <div class="v-line"></div>
+              <span class="title-3">Lorem ipsum dolor</span>
+            </li>
+            <li class="slide__menu-item">
+              <div class="v-line"></div>
+              <span class="title-3">Lorem ipsum dolor</span>
+            </li>
+            
+          </ul>
+        </nav>
+        <img class="slide__img" src="" alt="">
+      </div>
+      <h3 class="title-3 text-dark-blue slide__selected-title"><i><svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 12.2451L0.500001 23.5034L0.500002 0.986786L20 12.2451Z" fill="#014898"/>
+        </svg>
+        </i>Lorem ipsum dolor
+      </h3>
+      <p class="text-body-1 slide__selected-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus minus, quos quae a nesciunt consequatur. Eius autem ut, ipsam amet inventore assumenda voluptatum. Exercitationem harum odio aut molestias quam modi?</p>
+    </div>
+  </section>
+  <section id="conceito">
+    <div class="line-wrapper">
+      <div class="line"></div>
+      <h2 class="title-1 text-main-color conceito__title">Prova de Conceito</h2>
+      <div class="line"></div>
+    </div>
+    <p class="text-sub-2 text-white text-center conceito__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi repellat accusamus debitis. Ratione hic ea, dolore et ab impedit unde, laborum quasi iste suscipit enim vero minima eveniet tenetur quibusdam?</p>
+    
+  </section>
+  <section id="prototipo" class="container">
+    <h2 class="title-1 text-main-color prototipo__title">Protótipo Indústrial</h2>
+    <p class="text-sub-2 prototipo__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quidem quasi corrupti? Sint magni obcaecati similique quasi praesentium cumque asperiores delectus vitae est? Debitis officia perspiciatis esse non, nisi pariatur.</p>
+    <div class="veja-mais__cards-wrapper veja-mais__cards-wrapper--prototipo">
+      <div class="veja-mais__card veja-mais__card--prototipo">
+        <img class="veja-mais__img" src="" alt="">
+        <h3 class="veja-mais__text veja-mais__text--inovacao">Lorem ipsum</h3>
+        <p class="veja-mais__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div> 
+      <div class="veja-mais__card veja-mais__card--prototipo">
+        <img class="veja-mais__img" src="" alt="">
+        <h3 class="veja-mais__text veja-mais__text--inovacao">Lorem ipsum</h3>
+        <p class="veja-mais__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>  
     </div>
   </section>
 
